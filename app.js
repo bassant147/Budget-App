@@ -73,8 +73,6 @@ var budgetController = (function() {
       } else {
         data.percentage = -1;
       }
-
-      return budget;
     },
     getBudget: function() {
       return {
@@ -145,14 +143,14 @@ var UIController = (function() {
       fieldsArr[0].focus();
     },
     displayBudget: function(obj) {
-      document.querySelector(DOM.budgetLabel).textContent = obj.budget;
-      document.querySelector(DOM.incomeLabel).textContent = obj.totalInc;
-      document.querySelector(DOM.expensesLabel).textContent = obj.totalExp;
+      document.querySelector(DOMstrings.budgetLabel).textContent = obj.budget;
+      document.querySelector(DOMstrings.incomeLabel).textContent = obj.totalInc;
+      document.querySelector(DOMstrings.expensesLabel).textContent = obj.totalExp;
 
       if(obj.percentage > 0) {
-        document.querySelector(DOM.percentageLabel).textContent = obj.percentage;
+        document.querySelector(DOMstrings.percentageLabel).textContent = obj.percentage + '%';
       } else {
-        document.querySelector(DOM.percentageLabel).textContent = '---';
+        document.querySelector(DOMstrings.percentageLabel).textContent = '---';
       }
       
 
