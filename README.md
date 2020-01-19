@@ -1,2 +1,2 @@
 # Budget-App
-![](relative/path/to/img.png?raw=true "architecture")
+![](img.png?raw=true "architecture")
