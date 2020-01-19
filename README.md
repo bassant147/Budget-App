@@ -1,2 +1,2 @@
 # Budget-App
-![](https://raw.githubusercontent.com/bassant147/Budget-App/architecture.png)
+![](relative/path/to/img.png?raw=true "architecture")
