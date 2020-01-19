@@ -1,2 +1,2 @@
 # Budget-App
-![App Architecture](architecture.png)
+![](architecture.png)
